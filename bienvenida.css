@@ -1,0 +1,28 @@
+body{
+  background-color:#3c096c ;
+}
+h1,h2,p {
+    font-family: "LXGW WenKai TC";
+    text-align: center;
+    color:#fdfdff;
+  }
+  h1{
+    font-weight: 800;
+  }
+  h2{
+    font-weight: 400;
+    font-style: italic;
+  }
+  p{
+    font-weight: 300;
+  }
+  main{
+    width: 80%;
+    margin: 20% 10%;
+  }
+  button{
+    border: none;
+    width: 8rem;
+    height: 1.5rem;
+    margin: 1rem 0 0 45%;
+  }

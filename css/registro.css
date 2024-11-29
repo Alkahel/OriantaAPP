@@ -1,0 +1,56 @@
+/* Estilos generales para el main */
+main {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo del título */
+h1 {
+    text-align: center; /* Centrar el título */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo del formulario */
+form {
+    display: flex; /* Usar flexbox para alinear elementos */
+    flex-direction: column; /* Alinear en columna */
+}
+
+/* Estilo de las etiquetas */
+label {
+    margin-bottom: 5px; /* Espacio debajo de las etiquetas */
+    font-weight: bold; /* Negrita para las etiquetas */
+}
+
+/* Estilo de los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="passwordV"] {
+    padding: 10px; /* Espaciado interno en los campos */
+    margin-bottom: 15px; /* Espacio entre campos */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados en los campos */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilo del botón de envío */
+button {
+    padding: 10px; /* Espaciado interno en botones */
+    margin-top: 10px; /* Espacio superior para separación entre botones */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde predeterminado */
+    border-radius: 4px; /* Bordes redondeados en botones */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente en botones */
+}
+
+/* Efecto hover para botones */
+button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse sobre el botón */
+}
